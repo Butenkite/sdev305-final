@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>summary page</h2>
+    <% for (let i = 0; i<bookArray.length; i++) { %>
+        <p>Title:<%= bookArray[i].title%></p>
+        <p>Comments:<%= bookArray[i].comments%></p>
+        <p>rating:<%= bookArray[i].rating%></p>
+        <hr>
+    <% } %>
+</body>
+</html>

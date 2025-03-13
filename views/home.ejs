@@ -9,25 +9,20 @@
 <body>
     <main>
         <form id = "books" action = "summary" method = "post">
-            <section>
-            <h3>Book Title:</h3>
-            <label><input type = "text" id ="book-title" name = "book-title"></label>
-            </section>
 
-            <section>
+            <h3>Book Title:</h3>
+            <label><input type = "text" id ="title" name = "title"></label>
+
             <h3>Comments:</h3>
             <label><textarea type = "text" name = "comments" id = "comments"></textarea></label>
-            </section>
 
-            <section>
             <h3>rating:</h3>
-            <label><input type = "radio" name = "rating" value = 5>5 stars</label>
-            <label><input type = "radio" name = "rating" value = 5>4 stars</label>
-            <label><input type = "radio" name = "rating" value = 5>3 stars</label>
-            <label><input type = "radio" name = "rating" value = 5>2 stars</label>
-            <label><input type = "radio" name = "rating" value = 5>1 stars</label>
-            </section>
-            <button>Submit</button>
+            <label><input type = "radio" name = "rating" value = "5">5 stars</label>
+            <label><input type = "radio" name = "rating" value = "4">4 stars</label>
+            <label><input type = "radio" name = "rating" value = "3">3 stars</label>
+            <label><input type = "radio" name = "rating" value = "2">2 stars</label>
+            <label><input type = "radio" name = "rating" value = "1">1 stars</label>
+            <button type = "submit">Submit</button>
         </form>
     </main>
 </body>
